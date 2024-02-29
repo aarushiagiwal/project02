@@ -1,2 +1,2 @@
-# project02-
+# project02
 interaction studio project 02 collection 
