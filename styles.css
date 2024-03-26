@@ -44,9 +44,16 @@ body {
   }
 
 
-img{
+.image{
     height:280px;
     padding:15px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+.image:hover{
+  transform: scale(1.7);
+
 }
 
 .detailimg{

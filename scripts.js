@@ -240,7 +240,7 @@ const activatePopUp = function(animal){
 
 const buildAnimalListItem = function(animal){
     return `<div class="container">
-    <img src = '${animal.img}'/>    
+    <img class="image" src = '${animal.img}'/>    
     </div>`;
 }
 
