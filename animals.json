@@ -29,7 +29,7 @@
         "where": "Paper Source, New York",
         "when": 2024,
         "brand": "Jellycat",
-        "img": "images/image1.png "
+        "img": "images/image18.png "
     },
     {
         "name": "Frog Ellie",
@@ -45,7 +45,7 @@
         "where": "Christmas Present",
         "when": 2023,
         "brand": "ebba Sherbert Sweeties\n",
-        "undefined": "images/image17.png "
+        "img": "images/image17.png "
     },
     {
         "name": "Apple Pochacco",
@@ -61,7 +61,7 @@
         "where": "Disney World, Orlando",
         "when": 2019,
         "brand": "Disney",
-        "img": "images/image1.png "
+        "img": "images/image19.png"
     },
     {
         "name": "Willow Shine",
@@ -69,7 +69,7 @@
         "where": "Present",
         "when": 2023,
         "brand": "Pillow Pet",
-        "img": "images/image1.png "
+        "img": "images/image20.png"
     },
     {
         "name": "Boo",
@@ -77,7 +77,7 @@
         "where": "TJ Maxx, New York",
         "when": 2022,
         "brand": "Warmies",
-        "img": "images/image1.png "
+        "img": "images/image21.png"
     },
     {
         "name": "Rainbow Whale",
@@ -101,7 +101,7 @@
         "where": "Christmas Present",
         "when": 2020,
         "brand": "Care Bear",
-        "img": "images/image1.png "
+        "img": "images/image22.png"
     },
     {
         "name": "Leaf",
@@ -109,7 +109,7 @@
         "where": "Everland, Seoul",
         "when": 2022,
         "brand": "Everland ",
-        "img": "images/image1.png "
+        "img": "images/image23.png"
     },
     {
         "name": "N/A",
@@ -152,14 +152,6 @@
         "img": "images/image9.png "
     },
     {
-        "name": "Panda Two",
-        "species": "Panda",
-        "where": "Everland, Seoul",
-        "when": 2017,
-        "brand": "Everland ",
-        "img": "images/image1.png "
-    },
-    {
         "name": "Starlight",
         "species": "Reindeer",
         "where": "Christmas Present",
@@ -189,7 +181,7 @@
         "where": "FAO Schwarz, New York",
         "when": 2023,
         "brand": "Jellycat",
-        "img": "images/image1.png "
+        "img": "images/image24.png"
     },
     {
         "name": "Dumbo",
@@ -198,5 +190,13 @@
         "when": 2017,
         "brand": "Disney",
         "img": "images/image7.png "
+    },
+    {
+        "name": "Panda Two",
+        "species": "Panda ",
+        "where": "Everland, Seoul",
+        "when": 2017,
+        "brand": "Everland ",
+        "img": "images/image25.png"
     }
 ]

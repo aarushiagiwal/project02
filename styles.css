@@ -1,5 +1,152 @@
+body {
 
-.img{
-    width:100px;
-    height:100px;
+    background-color: #FFFEF4;
+    background-image: radial-gradient(#F9B5BD 10%, transparent 11%),
+    radial-gradient(#F9B5BD 10%, transparent 11%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+  }
+
+
+
+#popup{
+    display:none;
+    background-color: #FFFEF4;
+    position: fixed;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 800px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #F9B5BD;
+  }
+  
+#output-container.activate{
+    overflow:hidden;
+  
+  }
+
+  #exitbutton{
+    font-size:20px;
+    cursor:pointer;
+    padding:25px;
+    text-align: right;
+    font-family: franklin-gothic-atf, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#F9B5BD;
+
+  }
+
+
+img{
+    height:280px;
+    padding:15px;
+}
+
+.detailimg{
+  height:500px;
+  align-items:center;
+  margin-left:50px;
+  margin-top:-90px;
+
+}
+
+.info{
+  margin-top:-400px;
+  margin-left:450px;
+  text-align: center;
+  margin-right:100px;
+}
+
+h3{
+  font-family: 'Let\'s Be Glyphs Bouncy';
+  font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.2rem;
+    font-size:40px;
+    margin-top:-40px;
+    -webkit-text-stroke-width: 1px;
+    color:#F9B5BD;
+
+
+}
+
+h4{
+  font-family:  franklin-gothic-atf, sans-serif;
+  font-weight: 500;
+    font-style: italic;
+    font-size:20px;
+    margin-top:-40px;
+    opacity:60%;
+    color:#F9B5BD;
+
+
+}
+
+p{
+  font-family:  franklin-gothic-atf, sans-serif;
+  font-weight: 500;
+    font-style: normal;
+    font-size:15px;
+    line-height:10px;
+    color:#654A4C;
+
+
+}
+
+h5{
+  font-family:  franklin-gothic-atf, sans-serif;
+  font-weight: 500;
+    font-style: normal;
+    font-size:20px;
+    -webkit-text-stroke-width: 1px;
+    color:#654A4C;
+    -webkit-text-stroke-color: #F9B5BD;
+
+
+
+}
+
+#output-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin-right:8%;
+  margin-left:8%;
+
+}
+
+h1{
+  font-family: 'Let\'s Be Glyphs Bouncy';
+  font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.2rem;
+    font-size:90px;
+    margin-left:40px;
+    color:#654A4C;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #EF8E94;
+    text-align: center;
+    
+
+}
+
+h2{
+    font-family: franklin-gothic-atf, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    margin-left:40px;
+    color:#893641;
+    margin-top:-60px;
+    margin-bottom: 50px;
+    font-size:20px;
+    text-align: center;
+
+
 }
