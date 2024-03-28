@@ -209,9 +209,17 @@ window.addEventListener("load",()=>{
 })
 
 
+function shuffle(array) {
+    array.sort(() => Math.random() - 0.5);
+  }
+  
+
 function displayData(animals){
     var container = document.getElementById('output-container');  
     container.innerHTML = "";
+
+
+    shuffle(animals);
 
     for (let animal of animals){
     const itemElement = document.createElement("div");
@@ -223,6 +231,8 @@ function displayData(animals){
     container.appendChild(itemElement);
     }
 }
+
+
 
 const activatePopUp = function(animal){
 
