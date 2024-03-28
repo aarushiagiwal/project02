@@ -212,7 +212,7 @@ window.addEventListener("load",()=>{
 function displayData(animals){
     var container = document.getElementById('output-container');  
     container.innerHTML = "";
-    
+
     for (let animal of animals){
     const itemElement = document.createElement("div");
     itemElement.addEventListener("click", ()=>{
